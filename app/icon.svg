@@ -1,0 +1,17 @@
+export default function Icon() {
+  return (
+    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="64" height="64" rx="18" fill="#020817" />
+      <rect x="9" y="9" width="46" height="46" rx="14" fill="url(#paint0_linear_1_2)" fillOpacity="0.2" stroke="#67E8F9" strokeOpacity="0.7" />
+      <path d="M20 41L28 21H36L28 41H20Z" fill="#67E8F9" fillOpacity="0.85" />
+      <path d="M28 21H36L44 41H36L28 21Z" fill="#A78BFA" fillOpacity="0.8" />
+      <path d="M20 41H44L36 49H28L20 41Z" fill="#22D3EE" fillOpacity="0.8" />
+      <defs>
+        <linearGradient id="paint0_linear_1_2" x1="11" y1="12" x2="53" y2="53" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#67E8F9" />
+          <stop offset="1" stopColor="#A78BFA" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
