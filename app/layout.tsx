@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://coders4africa.online"),
   title: "Coders 4 Africa Challenge 2026 | 3 jours pour coder",
   description:
-    "Participez au défi de programmation Coders 4 Africa et découvrez un parcours de 4 mois en développement web et programmation.",
+    "Participez au challenge de programmation Coders 4 Africa et apprenez à construire, tester et présenter un projet en 3 jours.",
   keywords: [
     "Coders 4 Africa",
     "Challenge 2026",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Coders 4 Africa Challenge 2026",
     description:
-      "3 jours pour coder. 4 mois pour bâtir votre avenir.",
+      "3 jours pour apprendre et construire un projet concret.",
     url: "https://coders4africa.online",
     siteName: "Coders 4 Africa",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Coders 4 Africa Challenge 2026",
     description:
-      "3 jours pour coder. 4 mois pour bâtir votre avenir.",
+      "3 jours pour apprendre et construire un projet concret.",
   },
   icons: {
     icon: "/icon.svg",

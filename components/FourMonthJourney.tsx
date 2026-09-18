@@ -15,12 +15,12 @@ export default function FourMonthJourney() {
           transition={{ duration: 0.5 }}
           className="mx-auto max-w-3xl text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Programme</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">De l&apos;idée au projet</p>
           <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-            Le défi n&apos;est que le début.
+            Trois jours pour construire quelque chose de concret.
           </h2>
           <p className="mt-5 text-lg text-slate-300">
-            L&apos;expérience de 3 jours vous fait découvrir l&apos;écosystème. Le parcours se poursuit avec un accompagnement structuré pour passer des fondations à un vrai lancement.
+            Suivez une progression simple : comprendre le problème, créer une solution, la tester et la présenter devant les autres participants.
           </p>
         </motion.div>
 

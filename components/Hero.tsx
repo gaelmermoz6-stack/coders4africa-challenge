@@ -36,9 +36,9 @@ export default function Hero({ onOpenRegister }: HeroProps) {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="max-w-xl font-display text-4xl font-bold leading-[0.96] tracking-tight text-white sm:text-5xl lg:text-7xl"
           >
-            3 jours pour coder.
+            3 jours pour apprendre.
             <span className="block bg-gradient-to-r from-cyan-300 via-sky-400 to-violet-400 bg-clip-text text-transparent">
-              4 mois pour bâtir votre avenir.
+              1 projet pour le prouver.
             </span>
           </motion.h1>
 
@@ -48,7 +48,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
             transition={{ duration: 0.6, delay: 0.14 }}
             className="mt-6 max-w-xl text-lg leading-8 text-slate-300"
           >
-            Participez à un défi de programmation, testez vos compétences, collaborez, construisez et découvrez un parcours d&apos;apprentissage et de mentorat de 4 mois conçu pour vous aider à progresser en programmation et en développement web.
+            Pendant trois jours, apprenez les bases utiles, travaillez sur un problème concret avec d&apos;autres participants et repartez avec une solution à présenter.
           </motion.p>
 
           <motion.div
@@ -150,7 +150,7 @@ export default function Hero({ onOpenRegister }: HeroProps) {
               </div>
               <div>
                 <p className="text-[10px] uppercase tracking-[0.28em] text-slate-400">Feuille de route</p>
-                <p className="font-semibold text-white">3 jours / 4 mois</p>
+                <p className="font-semibold text-white">3 jours / 1 projet</p>
               </div>
             </div>
           </div>

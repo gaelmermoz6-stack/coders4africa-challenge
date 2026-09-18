@@ -4,50 +4,48 @@ export const challengeMeta = {
   targetDate: "2026-11-15T18:00:00Z",
   challengeTag: "DÉFI",
   challengeDays: "03 JOURS",
-  accompanimentTag: "ACCOMPAGNEMENT",
-  accompanimentMonths: "04 MOIS",
 };
 
 export const navItems = [
   { label: "Défi", href: "#challenge" },
   { label: "Programme", href: "#program" },
-  { label: "Parcours", href: "#journey" },
+  { label: "Compétences", href: "#skills" },
   { label: "FAQ", href: "#faq" },
 ];
 
 export const conceptCards = [
   {
     number: "01",
-    title: "3 JOURS",
-    subtitle: "Défi",
-    description: "Relevez des défis de programmation, résolvez des problèmes, collaborez et construisez.",
+    title: "JOUR 01",
+    subtitle: "Comprendre & planifier",
+    description: "Analysez le problème, choisissez une idée et transformez-la en un plan de réalisation clair.",
   },
   {
     number: "02",
-    title: "4 MOIS",
-    subtitle: "Accompagnement",
+    title: "JOUR 02",
+    subtitle: "Coder & collaborer",
     description:
-      "Poursuivez votre apprentissage grâce à un programme structuré axé sur la programmation et le développement web.",
+      "Construisez une première version, utilisez vos outils et apprenez à avancer efficacement en équipe.",
   },
   {
     number: "03",
-    title: "CRÉER POUR DE VRAI",
-    subtitle: "Projets",
+    title: "JOUR 03",
+    subtitle: "Tester & présenter",
     description:
-      "Mettez vos connaissances en pratique en construisant de vrais projets et en développant un portfolio professionnel.",
+      "Améliorez votre solution, présentez votre travail et repartez avec un projet concret à montrer.",
   },
 ];
 
 export const challengeDays = [
   {
     day: "JOUR 01",
-    title: "DÉCOUVERIR",
+    title: "COMPRENDRE",
     items: [
-      "Introduction",
-      "Présentation du défi",
-      "Formation d'équipes, si applicable",
-      "Comprendre le problème",
-      "Planification",
+      "Découvrir le sujet et les attentes",
+      "Identifier le besoin à résoudre",
+      "Former son équipe ou choisir son rôle",
+      "Définir une idée de solution",
+      "Préparer les étapes de réalisation",
     ],
     accent: "from-cyan-500/20 to-blue-500/10",
   },
@@ -55,11 +53,11 @@ export const challengeDays = [
     day: "JOUR 02",
     title: "CRÉER",
     items: [
-      "Codage",
-      "Collaboration",
-      "Résolution de problèmes",
-      "Mentorat",
-      "Développement du projet",
+      "Structurer une page web",
+      "Écrire du HTML et du CSS",
+      "Ajouter de l'interactivité en JavaScript",
+      "Utiliser Git et GitHub",
+      "Collaborer et résoudre les blocages",
     ],
     accent: "from-violet-500/20 to-fuchsia-500/10",
   },
@@ -67,65 +65,57 @@ export const challengeDays = [
     day: "JOUR 03",
     title: "DÉMO",
     items: [
-      "Finalisation du projet",
-      "Présentation",
-      "Démonstration",
-      "Évaluation",
+      "Tester et corriger sa solution",
+      "Améliorer l'expérience utilisateur",
+      "Préparer une démonstration claire",
+      "Présenter son projet au jury",
     ],
     accent: "from-emerald-500/20 to-cyan-500/10",
   },
 ];
 
 export const learningAreas = [
-  { number: "01", icon: "Code2", title: "Programmation", description: "Trouvez votre rythme dans la logique et la résolution de problèmes." },
-  { number: "02", icon: "Globe", title: "Développement web", description: "Comprenez le fonctionnement des interfaces modernes." },
-  { number: "03", icon: "LayoutTemplate", title: "HTML & CSS", description: "Créez des mises en page structurées et responsives." },
-  { number: "04", icon: "Braces", title: "JavaScript", description: "Ajoutez logique, comportement et interactivité." },
-  { number: "05", icon: "GitBranch", title: "Git & GitHub", description: "Travaillez ensemble avec des flux de développement professionnels." },
-  { number: "06", icon: "MonitorSmartphone", title: "Développement frontend", description: "Concevez des interfaces belles et faciles à utiliser." },
-  { number: "07", icon: "ServerCog", title: "Développement backend", description: "Comprenez la gestion des données et des services." },
-  { number: "08", icon: "Database", title: "Bases de données", description: "Stockez, interrogez et structurez les informations efficacement." },
-  { number: "09", icon: "Network", title: "APIs", description: "Connectez les expériences via des services réutilisables." },
-  { number: "10", icon: "Sparkles", title: "Intelligence artificielle", description: "Explorez les outils intelligents et les flux de travail modernes." },
-  { number: "11", icon: "ShieldCheck", title: "Fondamentaux de la cybersécurité", description: "Apprenez les bases d'un logiciel sûr." },
-  { number: "12", icon: "Rocket", title: "Déploiement & outils développeur", description: "Publiez votre travail et préparez-le pour la production." },
+  { number: "01", icon: "Code2", title: "Logique de programmation", description: "Découpez un problème en étapes simples et choisissez une approche." },
+  { number: "02", icon: "LayoutTemplate", title: "HTML & CSS", description: "Construisez une interface claire, structurée et responsive." },
+  { number: "03", icon: "Braces", title: "JavaScript", description: "Ajoutez des interactions et donnez vie à votre prototype." },
+  { number: "04", icon: "GitBranch", title: "Git & GitHub", description: "Sauvegardez votre travail et collaborez avec une équipe." },
+  { number: "05", icon: "Users", title: "Travail en équipe", description: "Répartissez les rôles, communiquez et avancez malgré les blocages." },
+  { number: "06", icon: "Presentation", title: "Démonstration", description: "Expliquez votre solution, vos choix techniques et vos résultats." },
 ];
 
 export const journeyMonths = [
   {
-    month: "MOIS 01",
-    title: "FONDATIONS",
+    month: "ÉTAPE 01",
+    title: "Cadrer le problème",
     items: [
-      "Fondamentaux de la programmation",
-      "Pensée logique",
-      "Outils développeur",
-      "Git et GitHub",
+      "Comprendre le sujet",
+      "Définir l'utilisateur cible",
+      "Choisir une idée réalisable",
     ],
   },
   {
-    month: "MOIS 02",
-    title: "DÉVELOPPEMENT WEB",
-    items: ["HTML", "CSS", "JavaScript", "Design responsive"],
+    month: "ÉTAPE 02",
+    title: "Construire le prototype",
+    items: ["Créer la structure HTML", "Styliser avec CSS", "Ajouter les interactions"],
   },
   {
-    month: "MOIS 03",
-    title: "CRÉATION",
-    items: ["Frontend", "Backend", "APIs", "Bases de données"],
+    month: "ÉTAPE 03",
+    title: "Tester et améliorer",
+    items: ["Vérifier les fonctionnalités", "Corriger les erreurs", "Améliorer l'interface"],
   },
   {
-    month: "MOIS 04",
-    title: "LANCEMENT",
-    items: ["Projet concret", "Portfolio", "Déploiement", "Présentation"],
+    month: "ÉTAPE 04",
+    title: "Présenter le résultat",
+    items: ["Préparer le pitch", "Faire une démonstration", "Recevoir les retours"],
   },
 ];
 
 export const howItWorks = [
   "S'INSCRIRE",
-  "REJOINDRE LE DÉFI DE 3 JOURS",
-  "TERMINER LE DÉFI",
-  "ÉVALUATION / ÉTAPE SUIVANTE",
-  "REJOINDRE LE PARCOURS DE 4 MOIS",
-  "CRÉER VOTRE PROJET",
+  "RECEVOIR LES INFORMATIONS DU DÉFI",
+  "CONSTRUIRE EN 3 JOURS",
+  "PRÉSENTER VOTRE SOLUTION",
+  "REPARTIR AVEC UN PROJET CONCRET",
 ];
 
 export const whoCanJoin = [
@@ -159,14 +149,14 @@ export const benefits = [
     description: "Connectez-vous avec vos pairs, collaborateurs et mentors.",
   },
   {
-    category: "BÉNÉFICIER D'UN SOUTIEN",
-    title: "Apprenez grâce au mentorat et à un accompagnement structuré.",
-    description: "Recevez de l'aide tout en progressant étape par étape.",
+    category: "RECEVOIR DES RETOURS",
+    title: "Progressez grâce aux retours.",
+    description: "Identifiez ce qui fonctionne, corrigez vos erreurs et améliorez votre solution.",
   },
   {
-    category: "SE PRÉPARER À L'AVENIR",
-    title: "Développez des compétences utiles à l'économie numérique.",
-    description: "Construisez une base pour de futures opportunités dans la tech.",
+    category: "REPARTIR AVEC DU CONCRET",
+    title: "Gardez une réalisation à montrer.",
+    description: "Terminez le challenge avec une démonstration et une expérience de projet à valoriser.",
   },
 ];
 
@@ -189,10 +179,9 @@ export const additionalOpportunities = "[DÉTAILS]";
 
 export const timelineItems = [
   { step: "01", label: "Inscription", date: "[DATE]" },
-  { step: "02", label: "Défi", date: "[DATE]" },
-  { step: "03", label: "Évaluation", date: "[DATE]" },
-  { step: "04", label: "Début du programme", date: "[DATE]" },
-  { step: "05", label: "Parcours de 4 mois", date: "[DATE → DATE]" },
+  { step: "02", label: "Jour 1 : Comprendre", date: "[DATE]" },
+  { step: "03", label: "Jour 2 : Construire", date: "[DATE]" },
+  { step: "04", label: "Jour 3 : Présenter", date: "[DATE]" },
 ];
 
 export const faqItems = [
@@ -227,19 +216,14 @@ export const faqItems = [
       "Le programme se concentre sur les fondamentaux de la programmation et le développement web, avec des projets pratiques pouvant inclure HTML, CSS, JavaScript, Git et GitHub, APIs, bases de données et flux de travail frontend modernes.",
   },
   {
+    question: "Que vais-je réaliser pendant les 3 jours ?",
+    answer:
+      "Vous allez passer d'une idée à un prototype : comprendre le problème, construire une interface, ajouter de l'interactivité, tester et présenter votre solution.",
+  },
+  {
     question: "Que se passe-t-il après le défi de 3 jours ?",
     answer:
-      "Le défi de 3 jours est la première étape. Selon les résultats et la progression des participants, l'étape suivante se poursuit avec un accompagnement structuré de 4 mois axé sur l'exécution de projets et la croissance technique.",
-  },
-  {
-    question: "Comment fonctionne le programme de 4 mois ?",
-    answer:
-      "Le programme suit une feuille de route guidée couvrant les fondations, le développement web, la construction de projets et la préparation au lancement. Chaque mois se concentre sur des objectifs d'apprentissage concrets et une mise en pratique.",
-  },
-  {
-    question: "Le programme de 4 mois est-il gratuit ou payant ?",
-    answer:
-      "Cela peut être adapté selon le modèle final d'inscription. La structure est prête à supporter un format gratuit, subventionné ou payant.",
+      "Le challenge se termine par une présentation et une évaluation des projets. Vous repartez avec ce que vous avez appris, votre réalisation et des retours utiles pour continuer à progresser.",
   },
   {
     question: "Comment puis-je m'inscrire ?",
@@ -256,5 +240,5 @@ export const footerLinks = {
 
 export const eventHighlights = [
   { label: "Défi", value: "03 jours" },
-  { label: "Accompagnement", value: "04 mois" },
+  { label: "Projet", value: "1 réalisation" },
 ];

@@ -45,12 +45,12 @@ export default function HomePage() {
                     Commencez maintenant
                   </p>
                   <h2 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                    Votre parcours commence ici.
+                    Votre challenge commence ici.
                   </h2>
                 </div>
                 <div className="max-w-xl">
                   <p className="text-lg text-slate-300 sm:text-xl">
-                    3 jours pour relever le défi. 4 mois pour développer vos compétences. Un parcours pour commencer à créer.
+                    3 jours pour apprendre, construire et présenter une solution concrète.
                   </p>
                 </div>
               </div>

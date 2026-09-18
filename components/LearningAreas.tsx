@@ -1,23 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Braces, Code2, Database, GitBranch, Globe, LayoutTemplate, MonitorSmartphone, Network, Rocket, ServerCog, ShieldCheck, Sparkles } from "lucide-react";
+import { Braces, Code2, GitBranch, LayoutTemplate, Presentation, Users } from "lucide-react";
 
 import { learningAreas } from "@/lib/data";
 
 const iconMap = {
   Code2,
-  Globe,
   LayoutTemplate,
   Braces,
   GitBranch,
-  MonitorSmartphone,
-  ServerCog,
-  Database,
-  Network,
-  Sparkles,
-  ShieldCheck,
-  Rocket,
+  Users,
+  Presentation,
 };
 
 export default function LearningAreas() {
@@ -30,9 +24,9 @@ export default function LearningAreas() {
         transition={{ duration: 0.5 }}
         className="mb-12 text-center"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Skills</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Compétences</p>
         <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-          Build your digital skills
+          Ce que vous allez apprendre
         </h2>
       </motion.div>
 
