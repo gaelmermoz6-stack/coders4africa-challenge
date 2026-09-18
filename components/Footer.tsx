@@ -20,11 +20,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Challenge</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Défi</p>
             <ul className="mt-5 space-y-3 text-slate-300">
               {footerLinks.challenge.map((item) => (
                 <li key={item}>
-                  <Link href={item === "FAQ" ? "#faq" : item === "Program" ? "#program" : item === "Challenge" ? "#challenge" : "#register"} className="hover:text-white">
+                  <Link href={item === "FAQ" ? "#faq" : item === "Programme" ? "#program" : item === "Défi" ? "#challenge" : "#register"} className="hover:text-white">
                     {item}
                   </Link>
                 </li>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Social</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Réseaux</p>
             <ul className="mt-5 space-y-3 text-slate-300">
               {footerLinks.socials.map((item) => (
                 <li key={item}>{item}</li>
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Legal</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Légal</p>
             <ul className="mt-5 space-y-3 text-slate-300">
               {footerLinks.legal.map((item) => (
                 <li key={item}>{item}</li>

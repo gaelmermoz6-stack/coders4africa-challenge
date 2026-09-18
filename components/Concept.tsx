@@ -14,14 +14,14 @@ export default function Concept() {
         transition={{ duration: 0.55 }}
         className="mx-auto max-w-3xl text-center"
       >
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Challenge</p>
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Défi</p>
         <h2 className="font-display text-3xl font-bold tracking-tight text-white sm:text-5xl">
-          One challenge.
-          <span className="block text-slate-300">One experience.</span>
-          <span className="block">One journey.</span>
+          Un seul défi.
+          <span className="block text-slate-300">Une seule expérience.</span>
+          <span className="block">Un seul parcours.</span>
         </h2>
         <p className="mt-5 text-lg text-slate-300">
-          A focused competition opens the door to deeper learning, continued guidance and work you can show.
+          Une compétition ciblée ouvre la voie à un apprentissage plus profond, un accompagnement continu et un travail que vous pouvez présenter.
         </p>
       </motion.div>
 

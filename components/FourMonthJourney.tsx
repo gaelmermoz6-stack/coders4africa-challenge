@@ -17,10 +17,10 @@ export default function FourMonthJourney() {
         >
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Programme</p>
           <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-            The challenge is only the beginning.
+            Le défi n&apos;est que le début.
           </h2>
           <p className="mt-5 text-lg text-slate-300">
-            The 3-day experience introduces you to the ecosystem. The pathway continues through structured accompaniment designed to move from foundations to a real launch.
+            L&apos;expérience de 3 jours vous fait découvrir l&apos;écosystème. Le parcours se poursuit avec un accompagnement structuré pour passer des fondations à un vrai lancement.
           </p>
         </motion.div>
 

@@ -16,7 +16,7 @@ export default function WhoCanJoin() {
           className="mb-12 text-center"
         >
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Audience</p>
-          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Who can join?</h2>
+          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Qui peut participer ?</h2>
         </motion.div>
 
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">

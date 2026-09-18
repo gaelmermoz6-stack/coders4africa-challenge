@@ -1,15 +1,15 @@
 export const challengeMeta = {
   title: "Coders 4 Africa Challenge 2026",
-  kicker: "CODERS 4 AFRICA PRESENTS",
+  kicker: "CODERS 4 AFRICA PRÉSENTE",
   targetDate: "2026-11-15T18:00:00Z",
-  challengeTag: "CHALLENGE",
-  challengeDays: "03 DAYS",
-  accompanimentTag: "ACCOMPANIMENT",
-  accompanimentMonths: "04 MONTHS",
+  challengeTag: "DÉFI",
+  challengeDays: "03 JOURS",
+  accompanimentTag: "ACCOMPAGNEMENT",
+  accompanimentMonths: "04 MOIS",
 };
 
 export const navItems = [
-  { label: "Challenge", href: "#challenge" },
+  { label: "Défi", href: "#challenge" },
   { label: "Programme", href: "#program" },
   { label: "Parcours", href: "#journey" },
   { label: "FAQ", href: "#faq" },
@@ -18,243 +18,243 @@ export const navItems = [
 export const conceptCards = [
   {
     number: "01",
-    title: "3 DAYS",
-    subtitle: "Challenge",
-    description: "Take on programming challenges, solve problems, collaborate and build.",
+    title: "3 JOURS",
+    subtitle: "Défi",
+    description: "Relevez des défis de programmation, résolvez des problèmes, collaborez et construisez.",
   },
   {
     number: "02",
-    title: "4 MONTHS",
-    subtitle: "Accompaniment",
+    title: "4 MOIS",
+    subtitle: "Accompagnement",
     description:
-      "Continue your learning journey through a structured program focused on programming and web development.",
+      "Poursuivez votre apprentissage grâce à un programme structuré axé sur la programmation et le développement web.",
   },
   {
     number: "03",
-    title: "BUILD FOR REAL",
-    subtitle: "Projects",
+    title: "CRÉER POUR DE VRAI",
+    subtitle: "Projets",
     description:
-      "Turn knowledge into practice by building real projects and developing a professional portfolio.",
+      "Mettez vos connaissances en pratique en construisant de vrais projets et en développant un portfolio professionnel.",
   },
 ];
 
 export const challengeDays = [
   {
-    day: "DAY 01",
-    title: "DISCOVER",
+    day: "JOUR 01",
+    title: "DÉCOUVERIR",
     items: [
       "Introduction",
-      "Challenge presentation",
-      "Team formation, if applicable",
-      "Understand the problem",
-      "Planning",
+      "Présentation du défi",
+      "Formation d'équipes, si applicable",
+      "Comprendre le problème",
+      "Planification",
     ],
     accent: "from-cyan-500/20 to-blue-500/10",
   },
   {
-    day: "DAY 02",
-    title: "BUILD",
+    day: "JOUR 02",
+    title: "CRÉER",
     items: [
-      "Coding",
+      "Codage",
       "Collaboration",
-      "Problem solving",
-      "Mentoring",
-      "Project development",
+      "Résolution de problèmes",
+      "Mentorat",
+      "Développement du projet",
     ],
     accent: "from-violet-500/20 to-fuchsia-500/10",
   },
   {
-    day: "DAY 03",
-    title: "DEMO",
+    day: "JOUR 03",
+    title: "DÉMO",
     items: [
-      "Project finalization",
-      "Presentation",
-      "Demonstration",
-      "Evaluation",
+      "Finalisation du projet",
+      "Présentation",
+      "Démonstration",
+      "Évaluation",
     ],
     accent: "from-emerald-500/20 to-cyan-500/10",
   },
 ];
 
 export const learningAreas = [
-  { number: "01", icon: "Code2", title: "Programming", description: "Find your rhythm in logic and problem solving." },
-  { number: "02", icon: "Globe", title: "Web Development", description: "Understand how modern interfaces work." },
-  { number: "03", icon: "LayoutTemplate", title: "HTML & CSS", description: "Build structured and responsive layouts." },
-  { number: "04", icon: "Braces", title: "JavaScript", description: "Add logic, behaviour and interactivity." },
-  { number: "05", icon: "GitBranch", title: "Git & GitHub", description: "Collaborate using professional developer workflows." },
-  { number: "06", icon: "MonitorSmartphone", title: "Frontend Development", description: "Design interfaces people can use beautifully." },
-  { number: "07", icon: "ServerCog", title: "Backend Development", description: "Understand how data and services are handled." },
-  { number: "08", icon: "Database", title: "Databases", description: "Store, query and structure information effectively." },
-  { number: "09", icon: "Network", title: "APIs", description: "Connect experiences through reusable services." },
-  { number: "10", icon: "Sparkles", title: "Artificial Intelligence", description: "Explore intelligent tools and modern workflows." },
-  { number: "11", icon: "ShieldCheck", title: "Cybersecurity fundamentals", description: "Learn the essentials of secure software practices." },
-  { number: "12", icon: "Rocket", title: "Deployment & developer tools", description: "Publish your work and prepare it for production." },
+  { number: "01", icon: "Code2", title: "Programmation", description: "Trouvez votre rythme dans la logique et la résolution de problèmes." },
+  { number: "02", icon: "Globe", title: "Développement web", description: "Comprenez le fonctionnement des interfaces modernes." },
+  { number: "03", icon: "LayoutTemplate", title: "HTML & CSS", description: "Créez des mises en page structurées et responsives." },
+  { number: "04", icon: "Braces", title: "JavaScript", description: "Ajoutez logique, comportement et interactivité." },
+  { number: "05", icon: "GitBranch", title: "Git & GitHub", description: "Travaillez ensemble avec des flux de développement professionnels." },
+  { number: "06", icon: "MonitorSmartphone", title: "Développement frontend", description: "Concevez des interfaces belles et faciles à utiliser." },
+  { number: "07", icon: "ServerCog", title: "Développement backend", description: "Comprenez la gestion des données et des services." },
+  { number: "08", icon: "Database", title: "Bases de données", description: "Stockez, interrogez et structurez les informations efficacement." },
+  { number: "09", icon: "Network", title: "APIs", description: "Connectez les expériences via des services réutilisables." },
+  { number: "10", icon: "Sparkles", title: "Intelligence artificielle", description: "Explorez les outils intelligents et les flux de travail modernes." },
+  { number: "11", icon: "ShieldCheck", title: "Fondamentaux de la cybersécurité", description: "Apprenez les bases d'un logiciel sûr." },
+  { number: "12", icon: "Rocket", title: "Déploiement & outils développeur", description: "Publiez votre travail et préparez-le pour la production." },
 ];
 
 export const journeyMonths = [
   {
-    month: "MONTH 01",
-    title: "FOUNDATIONS",
+    month: "MOIS 01",
+    title: "FONDATIONS",
     items: [
-      "Programming fundamentals",
-      "Logical thinking",
-      "Developer tools",
-      "Git and GitHub",
+      "Fondamentaux de la programmation",
+      "Pensée logique",
+      "Outils développeur",
+      "Git et GitHub",
     ],
   },
   {
-    month: "MONTH 02",
-    title: "WEB DEVELOPMENT",
-    items: ["HTML", "CSS", "JavaScript", "Responsive design"],
+    month: "MOIS 02",
+    title: "DÉVELOPPEMENT WEB",
+    items: ["HTML", "CSS", "JavaScript", "Design responsive"],
   },
   {
-    month: "MONTH 03",
-    title: "BUILD",
-    items: ["Frontend", "Backend", "APIs", "Databases"],
+    month: "MOIS 03",
+    title: "CRÉATION",
+    items: ["Frontend", "Backend", "APIs", "Bases de données"],
   },
   {
-    month: "MONTH 04",
-    title: "LAUNCH",
-    items: ["Real-world project", "Portfolio", "Deployment", "Presentation"],
+    month: "MOIS 04",
+    title: "LANCEMENT",
+    items: ["Projet concret", "Portfolio", "Déploiement", "Présentation"],
   },
 ];
 
 export const howItWorks = [
-  "REGISTER",
-  "JOIN THE 3-DAY CHALLENGE",
-  "COMPLETE THE CHALLENGE",
-  "EVALUATION / NEXT STEP",
-  "JOIN THE 4-MONTH JOURNEY",
-  "BUILD YOUR PROJECT",
+  "S'INSCRIRE",
+  "REJOINDRE LE DÉFI DE 3 JOURS",
+  "TERMINER LE DÉFI",
+  "ÉVALUATION / ÉTAPE SUIVANTE",
+  "REJOINDRE LE PARCOURS DE 4 MOIS",
+  "CRÉER VOTRE PROJET",
 ];
 
 export const whoCanJoin = [
-  "Beginners discovering programming",
-  "Students",
-  "Aspiring developers",
-  "Young technology enthusiasts",
-  "Developers who want to improve",
-  "People interested in web development",
+  "Débutants qui découvrent la programmation",
+  "Étudiants",
+  "Développeurs en devenir",
+  "Jeunes passionnés de technologie",
+  "Développeurs souhaitant progresser",
+  "Personnes intéressées par le développement web",
 ];
 
 export const benefits = [
   {
-    category: "BUILD SKILLS",
-    title: "Learn by doing.",
-    description: "Put theory into practice and develop useful coding habits.",
+    category: "DÉVELOPPER DES COMPÉTENCES",
+    title: "Apprenez en faisant.",
+    description: "Mettez la théorie en pratique et développez des habitudes utiles de code.",
   },
   {
-    category: "SOLVE REAL PROBLEMS",
-    title: "Develop practical problem-solving abilities.",
-    description: "Approach technical challenges with confidence and method.",
+    category: "RÉSOUDRE DES PROBLÈMES RÉELS",
+    title: "Développez une vraie capacité à résoudre des problèmes.",
+    description: "Approchez les défis techniques avec confiance et méthode.",
   },
   {
-    category: "BUILD PROJECTS",
-    title: "Create work that can become part of your portfolio.",
-    description: "Turn your effort into visible, shippable outcomes.",
+    category: "CRÉER DES PROJETS",
+    title: "Créez un travail qui peut entrer dans votre portfolio.",
+    description: "Transformez vos efforts en résultats visibles et livrables.",
   },
   {
-    category: "MEET OTHER DEVELOPERS",
-    title: "Join a technology community.",
-    description: "Connect with peers, collaborators, and mentors.",
+    category: "RENCONTRER D'AUTRES DÉVELOPPEURS",
+    title: "Rejoignez une communauté tech.",
+    description: "Connectez-vous avec vos pairs, collaborateurs et mentors.",
   },
   {
-    category: "GET GUIDANCE",
-    title: "Learn through mentorship and structured accompaniment.",
-    description: "Receive support while you progress step by step.",
+    category: "BÉNÉFICIER D'UN SOUTIEN",
+    title: "Apprenez grâce au mentorat et à un accompagnement structuré.",
+    description: "Recevez de l'aide tout en progressant étape par étape.",
   },
   {
-    category: "PREPARE FOR THE FUTURE",
-    title: "Develop skills relevant to the digital economy.",
-    description: "Build a foundation for future opportunities in tech.",
+    category: "SE PRÉPARER À L'AVENIR",
+    title: "Développez des compétences utiles à l'économie numérique.",
+    description: "Construisez une base pour de futures opportunités dans la tech.",
   },
 ];
 
 export const prizes = [
   {
-    title: "1ST PRIZE",
-    reward: "[REWARD]",
+    title: "1ER PRIX",
+    reward: "[RÉCOMPENSE]",
   },
   {
-    title: "2ND PRIZE",
-    reward: "[REWARD]",
+    title: "2E PRIX",
+    reward: "[RÉCOMPENSE]",
   },
   {
-    title: "3RD PRIZE",
-    reward: "[REWARD]",
+    title: "3E PRIX",
+    reward: "[RÉCOMPENSE]",
   },
 ];
 
-export const additionalOpportunities = "[DETAILS]";
+export const additionalOpportunities = "[DÉTAILS]";
 
 export const timelineItems = [
-  { step: "01", label: "Registration", date: "[DATE]" },
-  { step: "02", label: "Challenge", date: "[DATE]" },
-  { step: "03", label: "Evaluation", date: "[DATE]" },
-  { step: "04", label: "Program start", date: "[DATE]" },
-  { step: "05", label: "4-month journey", date: "[DATE → DATE]" },
+  { step: "01", label: "Inscription", date: "[DATE]" },
+  { step: "02", label: "Défi", date: "[DATE]" },
+  { step: "03", label: "Évaluation", date: "[DATE]" },
+  { step: "04", label: "Début du programme", date: "[DATE]" },
+  { step: "05", label: "Parcours de 4 mois", date: "[DATE → DATE]" },
 ];
 
 export const faqItems = [
   {
-    question: "Do I need previous programming experience?",
+    question: "Ai-je besoin d'une expérience préalable en programmation ?",
     answer:
-      "No. The challenge is designed to welcome motivated beginners as well as those who already have some experience. The goal is to help everyone progress, regardless of initial level.",
+      "Non. Le défi est conçu pour accueillir des débutants motivés ainsi que des personnes ayant déjà une certaine expérience. L'objectif est d'aider chacun à progresser, quel que soit son niveau initial.",
   },
   {
-    question: "Who can participate?",
+    question: "Qui peut participer ?",
     answer:
-      "Anyone interested in technology, programming, and web development can join. The challenge is open to beginners, students, aspiring developers, and people who want to strengthen their skills.",
+      "Toute personne intéressée par la technologie, la programmation et le développement web peut participer. Le défi est ouvert aux débutants, étudiants, futurs développeurs et personnes souhaitant renforcer leurs compétences.",
   },
   {
-    question: "Is the challenge free?",
+    question: "Le défi est-il gratuit ?",
     answer:
-      "This information can be adapted later. The key is to keep the experience easy to configure and update without changing the structure of the landing page.",
+      "Cette information peut être adaptée plus tard. L'important est de garder l'expérience facile à configurer et à mettre à jour sans modifier la structure de la landing page.",
   },
   {
-    question: "Can I participate individually?",
+    question: "Puis-je participer individuellement ?",
     answer:
-      "Yes. Participation can be individual or as part of a team depending on the format chosen for the edition. The experience remains designed around collaboration and learning.",
+      "Oui. La participation peut être individuelle ou en équipe selon le format choisi pour l'édition. L'expérience reste conçue autour de la collaboration et de l'apprentissage.",
   },
   {
-    question: "Can I participate as a team?",
+    question: "Puis-je participer en équipe ?",
     answer:
-      "Yes. Teams are welcome when the challenge format allows it. Teamwork is also part of the learning experience and helps develop communication and coordination skills.",
+      "Oui. Les équipes sont les bienvenues lorsque le format du défi le permet. Le travail en équipe fait aussi partie de l'expérience d'apprentissage et aide à développer les compétences en communication et en coordination.",
   },
   {
-    question: "What technologies will be used?",
+    question: "Quelles technologies seront utilisées ?",
     answer:
-      "The program focuses on programming fundamentals and web development, with practical projects that may include HTML, CSS, JavaScript, Git and GitHub, APIs, databases, and modern frontend workflows.",
+      "Le programme se concentre sur les fondamentaux de la programmation et le développement web, avec des projets pratiques pouvant inclure HTML, CSS, JavaScript, Git et GitHub, APIs, bases de données et flux de travail frontend modernes.",
   },
   {
-    question: "What happens after the 3-day challenge?",
+    question: "Que se passe-t-il après le défi de 3 jours ?",
     answer:
-      "The 3-day challenge is the first step. Based on the results and the progression of participants, the next stage continues with a structured 4-month accompaniment focused on project execution and technical growth.",
+      "Le défi de 3 jours est la première étape. Selon les résultats et la progression des participants, l'étape suivante se poursuit avec un accompagnement structuré de 4 mois axé sur l'exécution de projets et la croissance technique.",
   },
   {
-    question: "How does the 4-month program work?",
+    question: "Comment fonctionne le programme de 4 mois ?",
     answer:
-      "The program follows a guided roadmap covering foundations, web development, project building, and launch preparation. Each month focuses on concrete learning objectives and practical execution.",
+      "Le programme suit une feuille de route guidée couvrant les fondations, le développement web, la construction de projets et la préparation au lancement. Chaque mois se concentre sur des objectifs d'apprentissage concrets et une mise en pratique.",
   },
   {
-    question: "Is the 4-month program free or paid?",
+    question: "Le programme de 4 mois est-il gratuit ou payant ?",
     answer:
-      "This can be adapted according to the final enrollment model. The structure is ready to support either a free, subsidized, or paid format.",
+      "Cela peut être adapté selon le modèle final d'inscription. La structure est prête à supporter un format gratuit, subventionné ou payant.",
   },
   {
-    question: "How do I register?",
+    question: "Comment puis-je m'inscrire ?",
     answer:
-      "Use the registration form below. It is intentionally designed to be easy to connect later to Supabase, Google Forms, Airtable, or a custom API while keeping the local version fully functional without a backend.",
+      "Utilisez le formulaire d'inscription ci-dessous. Il est conçu pour être facilement relié plus tard à Supabase, Google Forms, Airtable ou une API personnalisée tout en gardant la version locale entièrement fonctionnelle sans backend.",
   },
 ];
 
 export const footerLinks = {
-  challenge: ["Challenge", "Program", "FAQ", "Contact"],
+  challenge: ["Défi", "Programme", "FAQ", "Contact"],
   socials: ["LinkedIn", "Instagram"],
-  legal: ["Terms", "Privacy"],
+  legal: ["Conditions", "Confidentialité"],
 };
 
 export const eventHighlights = [
-  { label: "Challenge", value: "03 Days" },
-  { label: "Accompaniment", value: "04 Months" },
+  { label: "Défi", value: "03 jours" },
+  { label: "Accompagnement", value: "04 mois" },
 ];

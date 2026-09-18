@@ -14,21 +14,21 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://coders4africa.online"),
-  title: "Coders 4 Africa Challenge 2026 | 3 Days to Code",
+  title: "Coders 4 Africa Challenge 2026 | 3 jours pour coder",
   description:
-    "Take part in the Coders 4 Africa programming challenge and discover a 4-month journey in programming and web development.",
+    "Participez au défi de programmation Coders 4 Africa et découvrez un parcours de 4 mois en développement web et programmation.",
   keywords: [
     "Coders 4 Africa",
     "Challenge 2026",
-    "programming challenge",
-    "web development",
-    "coding",
-    "mentorship",
+    "défi de programmation",
+    "développement web",
+    "codage",
+    "mentorat",
   ],
   openGraph: {
     title: "Coders 4 Africa Challenge 2026",
     description:
-      "3 days to code. 4 months to build your future.",
+      "3 jours pour coder. 4 mois pour bâtir votre avenir.",
     url: "https://coders4africa.online",
     siteName: "Coders 4 Africa",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Coders 4 Africa Challenge 2026",
     description:
-      "3 days to code. 4 months to build your future.",
+      "3 jours pour coder. 4 mois pour bâtir votre avenir.",
   },
   icons: {
     icon: "/icon.svg",

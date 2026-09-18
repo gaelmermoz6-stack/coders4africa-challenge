@@ -15,8 +15,8 @@ export default function Prizes() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Opportunities</p>
-          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Prizes & opportunities</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Opportunités</p>
+          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Prix et opportunités</h2>
         </motion.div>
 
         <div className="grid gap-5 lg:grid-cols-3">
@@ -42,7 +42,7 @@ export default function Prizes() {
           transition={{ duration: 0.5, delay: 0.12 }}
           className="mt-8 rounded-[1.75rem] border border-dashed border-cyan-400/30 bg-cyan-400/5 p-7 text-center"
         >
-          <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-cyan-200">Additional opportunities</p>
+          <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-cyan-200">Autres opportunités</p>
           <p className="mt-4 text-2xl font-semibold text-white">{additionalOpportunities}</p>
         </motion.div>
       </div>

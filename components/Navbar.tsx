@@ -1,13 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { navItems } from "@/lib/data";
 
-export default function Navbar() {
+type NavbarProps = {
+  onOpenRegister: () => void;
+};
+
+export default function Navbar({ onOpenRegister }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -52,12 +56,13 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Link
-            href="#register"
+          <button
+            type="button"
+            onClick={onOpenRegister}
             className="inline-flex items-center rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-200 transition-all hover:-translate-y-0.5 hover:bg-cyan-400 hover:text-slate-950"
           >
             Participer
-          </Link>
+          </button>
         </div>
 
         <button
@@ -88,13 +93,16 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="#register"
-              onClick={() => setIsOpen(false)}
+            <button
+              type="button"
+              onClick={() => {
+                setIsOpen(false);
+                onOpenRegister();
+              }}
               className="inline-flex items-center justify-center rounded-full bg-cyan-400 px-4 py-2.5 text-sm font-semibold text-slate-950"
             >
               Participer
-            </Link>
+            </button>
           </div>
         </motion.div>
       )}

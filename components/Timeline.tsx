@@ -14,8 +14,8 @@ export default function Timeline() {
         transition={{ duration: 0.5 }}
         className="mb-12 text-center"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Timeline</p>
-        <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Event timeline</h2>
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Calendrier</p>
+        <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Timeline de l&apos;événement</h2>
       </motion.div>
 
       <div className="relative">
