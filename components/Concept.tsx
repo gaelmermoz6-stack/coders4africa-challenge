@@ -14,14 +14,13 @@ export default function Concept() {
         transition={{ duration: 0.55 }}
         className="mx-auto max-w-3xl text-center"
       >
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Défi</p>
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Le vrai problème</p>
         <h2 className="font-display text-3xl font-bold tracking-tight text-white sm:text-5xl">
-          Un seul défi.
-          <span className="block text-slate-300">Une seule expérience.</span>
-          <span className="block">Un seul parcours.</span>
+          Vous n&apos;avez pas besoin de plus de théorie.
+          <span className="block text-slate-300">Vous avez besoin de construire.</span>
         </h2>
         <p className="mt-5 text-lg text-slate-300">
-          Une compétition ciblée ouvre la voie à un apprentissage plus profond, un accompagnement continu et un travail que vous pouvez présenter.
+          Beaucoup de personnes veulent apprendre à coder, mais restent bloquées entre les tutoriels, les idées et la peur de commencer. Ce challenge vous donne un cadre concret pour passer à l&apos;action.
         </p>
       </motion.div>
 

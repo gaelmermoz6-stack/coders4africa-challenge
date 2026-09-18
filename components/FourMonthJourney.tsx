@@ -17,10 +17,10 @@ export default function FourMonthJourney() {
         >
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">De l&apos;idée au projet</p>
           <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-            Trois jours pour construire quelque chose de concret.
+            Comment fonctionne le challenge
           </h2>
           <p className="mt-5 text-lg text-slate-300">
-            Suivez une progression simple : comprendre le problème, créer une solution, la tester et la présenter devant les autres participants.
+            Environ quelques heures par jour pour passer de l&apos;idée à une réalisation présentable, avec un objectif clair à chaque étape.
           </p>
         </motion.div>
 

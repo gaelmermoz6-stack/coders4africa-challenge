@@ -15,9 +15,9 @@ export default function ChallengeDays() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">3 jours</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Le challenge</p>
           <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-            3 jours pour relever le défi
+            Trois jours. Trois livrables. Un projet concret.
           </h2>
         </motion.div>
 

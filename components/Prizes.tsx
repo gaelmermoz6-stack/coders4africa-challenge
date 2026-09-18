@@ -15,8 +15,8 @@ export default function Prizes() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Opportunités</p>
-          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Prix et opportunités</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">À la fin du challenge</p>
+          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Valorisez votre réalisation</h2>
         </motion.div>
 
         <div className="grid gap-5 lg:grid-cols-3">

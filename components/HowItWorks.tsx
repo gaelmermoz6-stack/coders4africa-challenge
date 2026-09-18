@@ -14,8 +14,8 @@ export default function HowItWorks() {
         transition={{ duration: 0.5 }}
         className="mb-12 text-center"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Processus</p>
-        <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Comment ça marche</h2>
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Inclus dans le challenge</p>
+        <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Tout ce qu&apos;il vous faut pour commencer</h2>
       </motion.div>
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

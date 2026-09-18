@@ -24,9 +24,9 @@ export default function LearningAreas() {
         transition={{ duration: 0.5 }}
         className="mb-12 text-center"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Compétences</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Ce que vous allez construire</p>
         <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">
-          Ce que vous allez apprendre
+          Des résultats, pas seulement des notes
         </h2>
       </motion.div>
 

@@ -15,8 +15,8 @@ export default function WhoCanJoin() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Audience</p>
-          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Qui peut participer ?</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Pour qui ?</p>
+          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Ce challenge est pour vous si...</h2>
         </motion.div>
 
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">

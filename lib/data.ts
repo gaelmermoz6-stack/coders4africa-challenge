@@ -16,23 +16,23 @@ export const navItems = [
 export const conceptCards = [
   {
     number: "01",
-    title: "JOUR 01",
-    subtitle: "Comprendre & planifier",
-    description: "Analysez le problème, choisissez une idée et transformez-la en un plan de réalisation clair.",
+    title: "AVANT",
+    subtitle: "Une idée sans direction",
+    description: "Vous avez envie de coder, mais vous ne savez pas quel problème résoudre ni par où commencer.",
   },
   {
     number: "02",
-    title: "JOUR 02",
-    subtitle: "Coder & collaborer",
+    title: "PENDANT",
+    subtitle: "Un cadre pour construire",
     description:
-      "Construisez une première version, utilisez vos outils et apprenez à avancer efficacement en équipe.",
+      "Pendant trois jours, vous avancez avec une méthode, des objectifs précis et une équipe ou un rôle clair.",
   },
   {
     number: "03",
-    title: "JOUR 03",
-    subtitle: "Tester & présenter",
+    title: "APRÈS",
+    subtitle: "Un projet à montrer",
     description:
-      "Améliorez votre solution, présentez votre travail et repartez avec un projet concret à montrer.",
+      "Vous repartez avec une réalisation concrète, une présentation et une meilleure compréhension du processus de création.",
   },
 ];
 
@@ -75,12 +75,12 @@ export const challengeDays = [
 ];
 
 export const learningAreas = [
-  { number: "01", icon: "Code2", title: "Logique de programmation", description: "Découpez un problème en étapes simples et choisissez une approche." },
-  { number: "02", icon: "LayoutTemplate", title: "HTML & CSS", description: "Construisez une interface claire, structurée et responsive." },
-  { number: "03", icon: "Braces", title: "JavaScript", description: "Ajoutez des interactions et donnez vie à votre prototype." },
-  { number: "04", icon: "GitBranch", title: "Git & GitHub", description: "Sauvegardez votre travail et collaborez avec une équipe." },
-  { number: "05", icon: "Users", title: "Travail en équipe", description: "Répartissez les rôles, communiquez et avancez malgré les blocages." },
-  { number: "06", icon: "Presentation", title: "Démonstration", description: "Expliquez votre solution, vos choix techniques et vos résultats." },
+  { number: "01", icon: "Code2", title: "Une idée clarifiée", description: "Définissez le problème, l'utilisateur et la solution que vous voulez construire." },
+  { number: "02", icon: "LayoutTemplate", title: "Une interface structurée", description: "Organisez une page claire avec HTML et CSS, pensée pour être utilisée." },
+  { number: "03", icon: "Braces", title: "Un prototype interactif", description: "Ajoutez des interactions avec JavaScript et rendez votre idée testable." },
+  { number: "04", icon: "GitBranch", title: "Un projet versionné", description: "Utilisez Git et GitHub pour sauvegarder, partager et faire évoluer votre travail." },
+  { number: "05", icon: "Users", title: "Une expérience d'équipe", description: "Répartissez les rôles, communiquez et apprenez à résoudre les blocages." },
+  { number: "06", icon: "Presentation", title: "Une démonstration finale", description: "Présentez votre solution, vos choix techniques et ce que vous avez appris." },
 ];
 
 export const journeyMonths = [
@@ -111,11 +111,11 @@ export const journeyMonths = [
 ];
 
 export const howItWorks = [
-  "S'INSCRIRE",
-  "RECEVOIR LES INFORMATIONS DU DÉFI",
-  "CONSTRUIRE EN 3 JOURS",
-  "PRÉSENTER VOTRE SOLUTION",
-  "REPARTIR AVEC UN PROJET CONCRET",
+  "Accès au challenge de 3 jours",
+  "Exercices pratiques et objectifs quotidiens",
+  "Cadre de travail pour construire votre projet",
+  "Retours sur votre solution et votre présentation",
+  "Lien vers la communauté WhatsApp",
 ];
 
 export const whoCanJoin = [
@@ -129,34 +129,34 @@ export const whoCanJoin = [
 
 export const benefits = [
   {
-    category: "DÉVELOPPER DES COMPÉTENCES",
-    title: "Apprenez en faisant.",
-    description: "Mettez la théorie en pratique et développez des habitudes utiles de code.",
+    category: "01 — SOYEZ PRÉSENT",
+    title: "Consacrez du temps au challenge.",
+    description: "Prévoyez un moment chaque jour pour suivre les consignes et avancer sur votre réalisation.",
   },
   {
-    category: "RÉSOUDRE DES PROBLÈMES RÉELS",
-    title: "Développez une vraie capacité à résoudre des problèmes.",
-    description: "Approchez les défis techniques avec confiance et méthode.",
+    category: "02 — PRATIQUEZ",
+    title: "Faites les exercices.",
+    description: "Le challenge fonctionne quand vous testez, corrigez et appliquez les notions vues.",
   },
   {
-    category: "CRÉER DES PROJETS",
-    title: "Créez un travail qui peut entrer dans votre portfolio.",
-    description: "Transformez vos efforts en résultats visibles et livrables.",
+    category: "03 — PARTAGEZ",
+    title: "Montrez votre avancement.",
+    description: "Partagez vos progrès et demandez de l'aide lorsque vous rencontrez un blocage.",
   },
   {
-    category: "RENCONTRER D'AUTRES DÉVELOPPEURS",
-    title: "Rejoignez une communauté tech.",
-    description: "Connectez-vous avec vos pairs, collaborateurs et mentors.",
+    category: "04 — COLLABOREZ",
+    title: "Apprenez avec les autres.",
+    description: "Échangez avec les participants, écoutez les retours et contribuez à la dynamique du groupe.",
   },
   {
-    category: "RECEVOIR DES RETOURS",
-    title: "Progressez grâce aux retours.",
-    description: "Identifiez ce qui fonctionne, corrigez vos erreurs et améliorez votre solution.",
+    category: "05 — PRÉSENTEZ",
+    title: "Allez jusqu'à la démonstration.",
+    description: "Préparez une présentation simple qui explique votre idée, votre démarche et votre résultat.",
   },
   {
-    category: "REPARTIR AVEC DU CONCRET",
-    title: "Gardez une réalisation à montrer.",
-    description: "Terminez le challenge avec une démonstration et une expérience de projet à valoriser.",
+    category: "06 — CONSTRUISEZ",
+    title: "Repartez avec du concret.",
+    description: "Votre objectif n'est pas de tout savoir, mais de terminer une première réalisation utile.",
   },
 ];
 
