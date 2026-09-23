@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { DM_Sans, Space_Grotesk } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const dmSans = DM_Sans({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-});
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-display",
 });
 
 export const metadata: Metadata = {
@@ -45,7 +40,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${dmSans.variable} ${spaceGrotesk.variable} bg-sand-50 text-ink-900 antialiased`}>
+      <body className={`${inter.variable} bg-sand-50 text-ink-900 antialiased`}>
         {children}
       </body>
     </html>
