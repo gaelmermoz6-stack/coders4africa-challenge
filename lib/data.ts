@@ -163,25 +163,25 @@ export const benefits = [
 export const prizes = [
   {
     title: "1ER PRIX",
-    reward: "[RÉCOMPENSE]",
+    reward: "À annoncer bientôt",
   },
   {
     title: "2E PRIX",
-    reward: "[RÉCOMPENSE]",
+    reward: "À annoncer bientôt",
   },
   {
     title: "3E PRIX",
-    reward: "[RÉCOMPENSE]",
+    reward: "À annoncer bientôt",
   },
 ];
 
-export const additionalOpportunities = "[DÉTAILS]";
+export const additionalOpportunities = "Stages, mentorat et visibilité auprès des recruteurs partenaires.";
 
 export const timelineItems = [
-  { step: "01", label: "Inscription", date: "[DATE]" },
-  { step: "02", label: "Jour 1 : Comprendre", date: "[DATE]" },
-  { step: "03", label: "Jour 2 : Construire", date: "[DATE]" },
-  { step: "04", label: "Jour 3 : Présenter", date: "[DATE]" },
+  { step: "01", label: "Inscription", date: "Ouvert dès maintenant" },
+  { step: "02", label: "Jour 1 : Comprendre", date: "15 novembre 2026" },
+  { step: "03", label: "Jour 2 : Construire", date: "16 novembre 2026" },
+  { step: "04", label: "Jour 3 : Présenter", date: "17 novembre 2026" },
 ];
 
 export const faqItems = [

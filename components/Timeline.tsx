@@ -14,38 +14,51 @@ export default function Timeline() {
         transition={{ duration: 0.5 }}
         className="mb-12 text-center"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Calendrier</p>
-        <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Timeline de l&apos;événement</h2>
+        <p className="eyebrow">Calendrier</p>
+        <h2 className="section-title">Timeline de l&apos;événement</h2>
       </motion.div>
 
       <div className="relative">
-        <div className="absolute left-1/2 hidden h-full w-px -translate-x-1/2 bg-gradient-to-b from-cyan-400/0 via-cyan-400/30 to-cyan-400/0 lg:block" />
+        <div
+          className="absolute left-1/2 hidden h-full w-[3px] -translate-x-1/2 rounded-full bg-gradient-to-b from-clay-300/0 via-clay-300/80 to-clay-300/0 lg:block"
+          aria-hidden="true"
+        />
 
         <div className="space-y-6">
-          {timelineItems.map((item, index) => (
-            <motion.div
-              key={item.step}
-              initial={{ opacity: 0, y: 26 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.15 }}
-              transition={{ duration: 0.45, delay: index * 0.08 }}
-              className="grid items-center gap-4 lg:grid-cols-2"
-            >
-              <div className={`${index % 2 === 0 ? "lg:pr-10 lg:text-right" : "lg:col-start-2 lg:pl-10"}`}>
-                <div className="rounded-[1.5rem] border border-white/10 bg-slate-900/70 p-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-cyan-200">{item.step}</p>
-                  <h3 className="mt-4 font-display text-3xl font-semibold text-white">{item.label}</h3>
-                  <p className="mt-2 text-slate-300">{item.date}</p>
-                </div>
-              </div>
+          {timelineItems.map((item, index) => {
+            const isLeft = index % 2 === 0;
+            const dotColor = isLeft ? "bg-clay-500" : "bg-moss-500";
 
-              <div className="hidden items-center justify-center lg:flex">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-400/10">
-                  <span className="h-2.5 w-2.5 rounded-full bg-cyan-300" />
+            return (
+              <motion.div
+                key={item.step}
+                initial={{ opacity: 0, y: 26 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.15 }}
+                transition={{ duration: 0.45, delay: index * 0.08 }}
+                className="grid items-center gap-4 lg:grid-cols-2"
+              >
+                <div className={isLeft ? "lg:pr-10 lg:text-right" : "lg:col-start-2 lg:pl-10"}>
+                  <div className="surface-card surface-card-hover">
+                    <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-clay-500">
+                      {item.label}
+                    </p>
+                    <h3 className="mt-3 font-display text-2xl font-semibold text-ink-900 sm:text-3xl">
+                      {item.date}
+                    </h3>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+
+                <div className="hidden items-center justify-center lg:flex">
+                  <div
+                    className={`flex h-9 w-9 items-center justify-center rounded-full border-2 border-white font-display text-xs font-bold text-sand-50 shadow-card ${dotColor}`}
+                  >
+                    {item.step}
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Fraunces, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const sourceSans = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-display",
 });
@@ -27,8 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Coders 4 Africa Challenge 2026",
-    description:
-      "3 jours pour apprendre et construire un projet concret.",
+    description: "3 jours pour apprendre et construire un projet concret.",
     url: "https://coders4africa.online",
     siteName: "Coders 4 Africa",
     type: "website",
@@ -36,8 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Coders 4 Africa Challenge 2026",
-    description:
-      "3 jours pour apprendre et construire un projet concret.",
+    description: "3 jours pour apprendre et construire un projet concret.",
   },
   icons: {
     icon: "/icon.svg",
@@ -47,7 +45,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${inter.variable} ${spaceGrotesk.variable} bg-slate-950 text-slate-100 antialiased`}>
+      <body className={`${sourceSans.variable} ${fraunces.variable} bg-sand-50 text-ink-900 antialiased`}>
         {children}
       </body>
     </html>

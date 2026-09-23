@@ -6,7 +6,7 @@ import { conceptCards } from "@/lib/data";
 
 export default function Concept() {
   return (
-    <section id="challenge" className="section-shell py-24 sm:py-30">
+    <section id="challenge" className="section-shell py-24 sm:py-28">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -14,13 +14,15 @@ export default function Concept() {
         transition={{ duration: 0.55 }}
         className="mx-auto max-w-3xl text-center"
       >
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">Le vrai problème</p>
-        <h2 className="font-display text-3xl font-bold tracking-tight text-white sm:text-5xl">
+        <p className="eyebrow">Le vrai problème</p>
+        <h2 className="section-title">
           Vous n&apos;avez pas besoin de plus de théorie.
-          <span className="block text-slate-300">Vous avez besoin de construire.</span>
+          <span className="block font-display italic text-clay-600">Vous avez besoin de construire.</span>
         </h2>
-        <p className="mt-5 text-lg text-slate-300">
-          Beaucoup de personnes veulent apprendre à coder, mais restent bloquées entre les tutoriels, les idées et la peur de commencer. Ce challenge vous donne un cadre concret pour passer à l&apos;action.
+        <p className="mt-5 text-lg leading-8 text-ink-500">
+          Beaucoup de personnes veulent apprendre à coder, mais restent bloquées entre les
+          tutoriels, les idées et la peur de commencer. Ce challenge vous donne un cadre concret
+          pour passer à l&apos;action.
         </p>
       </motion.div>
 
@@ -33,17 +35,18 @@ export default function Concept() {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.5, delay: index * 0.12 }}
             whileHover={{ y: -8 }}
-            className="group rounded-[1.75rem] border border-white/10 bg-slate-900/70 p-7 shadow-[0_20px_60px_rgba(15,23,42,0.45)]"
+            className="surface-card surface-card-hover group relative overflow-hidden"
           >
+            <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-clay-100/80 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
             <div className="mb-8 flex items-center justify-between">
-              <span className="text-4xl font-bold text-cyan-300/80">{card.number}</span>
-              <span className="h-px flex-1 bg-gradient-to-r from-cyan-400/30 to-transparent ml-4" />
+              <span className="font-display text-4xl font-bold text-clay-400">{card.number}</span>
+              <span className="ml-4 h-px flex-1 bg-gradient-to-r from-clay-300/70 to-transparent" />
             </div>
 
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-slate-400">{card.title}</p>
-              <h3 className="font-display text-2xl font-semibold text-white">{card.subtitle}</h3>
-              <p className="text-base leading-7 text-slate-300">{card.description}</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-ink-400">{card.title}</p>
+              <h3 className="font-display text-2xl font-semibold text-ink-900">{card.subtitle}</h3>
+              <p className="text-base leading-7 text-ink-500">{card.description}</p>
             </div>
           </motion.article>
         ))}

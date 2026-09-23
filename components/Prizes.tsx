@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Award } from "lucide-react";
 
 import { additionalOpportunities, prizes } from "@/lib/data";
 
 export default function Prizes() {
   return (
-    <section className="bg-slate-950/70 py-24 sm:py-28">
-      <div className="section-shell">
+    <section className="terrain relative border-y border-ink-700/10 bg-sand-100/60 py-24 sm:py-28">
+      <div className="section-shell relative">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -15,8 +16,8 @@ export default function Prizes() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-cyan-300/80">À la fin du challenge</p>
-          <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-5xl">Valorisez votre réalisation</h2>
+          <p className="eyebrow">À la fin du challenge</p>
+          <h2 className="section-title">Valorisez votre réalisation</h2>
         </motion.div>
 
         <div className="grid gap-5 lg:grid-cols-3">
@@ -27,10 +28,23 @@ export default function Prizes() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.15 }}
               transition={{ duration: 0.45, delay: index * 0.08 }}
-              className="rounded-[1.75rem] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.14),_transparent_35%),rgba(15,23,42,0.85)] p-7"
+              whileHover={{ y: -8 }}
+              className={`surface-card surface-card-hover relative overflow-hidden text-center ${
+                index === 0
+                  ? "!border-clay-300 bg-gradient-to-b from-clay-50 to-white"
+                  : ""
+              }`}
             >
-              <p className="text-[10px] font-semibold uppercase tracking-[0.32em] text-cyan-200">{prize.title}</p>
-              <div className="mt-8 font-display text-4xl font-bold text-white">{prize.reward}</div>
+              {index === 0 && (
+                <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-clay-500 text-sand-50 shadow-glow">
+                  <Award className="h-5 w-5" />
+                </div>
+              )}
+              <p className="text-[10px] font-semibold uppercase tracking-[0.32em] text-clay-500">
+                {prize.title}
+              </p>
+              <div className="mt-8 font-display text-3xl font-bold text-ink-900">{prize.reward}</div>
+              <div className="mx-auto mt-8 h-px w-16 bg-gradient-to-r from-transparent via-clay-400/70 to-transparent" />
             </motion.article>
           ))}
         </div>
@@ -40,10 +54,14 @@ export default function Prizes() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.5, delay: 0.12 }}
-          className="mt-8 rounded-[1.75rem] border border-dashed border-cyan-400/30 bg-cyan-400/5 p-7 text-center"
+          className="mt-8 rounded-3xl border border-dashed border-moss-300 bg-moss-50 p-7 text-center"
         >
-          <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-cyan-200">Autres opportunités</p>
-          <p className="mt-4 text-2xl font-semibold text-white">{additionalOpportunities}</p>
+          <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-moss-600">
+            Autres opportunités
+          </p>
+          <p className="mt-4 font-display text-xl font-semibold text-ink-900 sm:text-2xl">
+            {additionalOpportunities}
+          </p>
         </motion.div>
       </div>
     </section>
