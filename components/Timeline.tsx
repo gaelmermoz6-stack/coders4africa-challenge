@@ -44,7 +44,7 @@ export default function Timeline() {
                       {item.label}
                     </p>
                     <h3 className="mt-3 font-display text-2xl font-semibold text-ink-900 sm:text-3xl">
-                      {item.date}
+                      {item.label.replace(/:.*/, "")}
                     </h3>
                   </div>
                 </div>
