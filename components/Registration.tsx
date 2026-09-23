@@ -38,6 +38,8 @@ export default function Registration({ isOpen, onClose, onSuccess }: Registratio
   const [form, setForm] = useState<FormState>(initialForm);
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({});
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   useEffect(() => {
     if (!isOpen) return;
@@ -73,7 +75,7 @@ export default function Registration({ isOpen, onClose, onSuccess }: Registratio
     return Object.keys(nextErrors).length === 0;
   };
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     if (!validate()) {
@@ -81,10 +83,29 @@ export default function Registration({ isOpen, onClose, onSuccess }: Registratio
       return;
     }
 
-    setIsSubmitted(true);
-    setErrors({});
-    setForm(initialForm);
-    onSuccess();
+    setIsSubmitting(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (!response.ok) {
+        throw new Error("Registration request failed");
+      }
+
+      setIsSubmitted(true);
+      setErrors({});
+      setForm(initialForm);
+      onSuccess();
+    } catch {
+      setSubmitError("L'inscription n'a pas pu être envoyée. Veuillez réessayer.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (!isOpen) {
@@ -256,8 +277,9 @@ export default function Registration({ isOpen, onClose, onSuccess }: Registratio
             </div>
 
             <div className="mt-3 md:col-span-2">
-              <button type="submit" className="btn-primary w-full sm:w-auto">
-                S&apos;inscrire au défi
+              {submitError ? <p className="mb-3 text-sm text-clay-600">{submitError}</p> : null}
+              <button type="submit" disabled={isSubmitting} className="btn-primary w-full sm:w-auto disabled:cursor-wait disabled:opacity-60">
+                {isSubmitting ? "Envoi en cours..." : "S'inscrire au défi"}
               </button>
             </div>
           </form>
