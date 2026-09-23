@@ -1,7 +1,7 @@
 export const challengeMeta = {
   title: "Coders 4 Africa Challenge 2026",
   kicker: "CODERS 4 AFRICA PRÉSENTE",
-  targetDate: "2026-11-15T18:00:00Z",
+  targetDate: "2026-10-15T18:00:00Z",
   challengeTag: "DÉFI",
   challengeDays: "03 JOURS",
 };
@@ -179,9 +179,9 @@ export const additionalOpportunities = "Stages, mentorat et visibilité auprès 
 
 export const timelineItems = [
   { step: "01", label: "Inscription", date: "Ouvert dès maintenant" },
-  { step: "02", label: "Jour 1 : Comprendre", date: "15 novembre 2026" },
-  { step: "03", label: "Jour 2 : Construire", date: "16 novembre 2026" },
-  { step: "04", label: "Jour 3 : Présenter", date: "17 novembre 2026" },
+  { step: "02", label: "Jour 1 : Comprendre", date: "15 octobre 2026" },
+  { step: "03", label: "Jour 2 : Construire", date: "16 octobre 2026" },
+  { step: "04", label: "Jour 3 : Présenter", date: "17 octobre 2026" },
 ];
 
 export const faqItems = [
